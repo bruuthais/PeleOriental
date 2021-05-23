@@ -1,0 +1,39 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: var(--rosa);
+
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.rodape__copy{
+    font-size: 25px;
+}
+.rodape__social {
+    display: flex;
+}
+
+.rodape__midia {
+    display: block;
+
+    width: 42px;
+    height: 42px;
+
+    margin: 2rem 1rem;
+}
+
+.rodape__github {
+    color: var(--branco);
+    text-align: center;
+    line-height: 3;
+}
+
+
+.rodape__link {
+    display: inline-block;
+
+    margin: 0 .5rem .7rem;
+}
