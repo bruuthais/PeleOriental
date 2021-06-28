@@ -40,11 +40,22 @@
 
 .contato__video {
   margin-top: 1rem;
-  width: 100%;
+  width: 400px;
+  height: 315px;
 }
 
-@media screen and(min-width: 768px) {
+@media screen and (min-width: 760px) {
   .contato__video {
-    width: 100%;
+    margin-top: 1rem;
+    width: 700px;
+    height: 515px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contato__video {
+    margin-top: 1rem;
+    width: 900px;
+    height: 615px;
   }
 }
