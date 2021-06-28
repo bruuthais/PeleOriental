@@ -1,48 +1,49 @@
 :root {
+  --rosa: #f987c5;
+  --preto: rgb(0, 0, 0);
 
-    --rosa:#ffcbdb;
-    --preto: rgb(0, 0, 0);
+  --branco: #fff;
 
-    
-    --rosa-claro:#fbd4e0bb;
-    
-    --branco: #FFF;
-   
-    --cinza-escuro: #4F4C4C;
-    --cinza-claro: #F7F4F4;
-    --cinza-medio: #D9D9D9;
-        
-    --fonte-link: #0084FF;
-    --fonte-cinza: #666;
-    --rotina-diurna: rgb(176, 219, 95);
-    --rosa-escuro: rgb(245, 133, 221);
-    
-    
+  --cinza-escuro: #4f4c4c;
+  --cinza-claro: #f7f4f4;
+  --cinza-medio: #d9d9d9;
 
-    --montserrat: 'Montserrat', sans-serif;
+  --fonte-link: #0084ff;
+  --fonte-cinza: #666;
+  --rotina-diurna: rgb(176, 219, 95);
+  --rosa-escuro: #f987c5;
+
+  --montserrat: "Montserrat", sans-serif;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
-    padding-right: 6%;
-    padding-left: 6%;
+  padding-right: 6%;
+  padding-left: 6%;
 }
 
 .botao {
-    text-align: center;
+  text-align: center;
 
-    display: block;
+  display: block;
 
-    width: 100%;
-    max-width: 350px;
+  width: 100%;
+  max-width: 350px;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    padding: 1rem 2rem;
+  padding: 1rem 2rem;
 
-    border: 1px solid var(--branco);
-    border-radius: 5px;
+  border: 1px solid var(--branco);
+  border-radius: 5px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
 }

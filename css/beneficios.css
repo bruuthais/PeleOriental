@@ -1,47 +1,47 @@
 .beneficios {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background: var(--cinza-claro);
 }
 
-.beneficios__titulo{
-    color: var(--cinza-escuro);
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 1.5rem;
+.beneficios__titulo {
+  color: var(--cinza-escuro);
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 .beneficios__lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .beneficios__item {
-    max-width: 350px;
+  max-width: 350px;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    background-repeat: no-repeat;
-    background-position: top 1.25rem left 2.5rem;
+  background-repeat: no-repeat;
+  background-position: top 1.25rem left 2.5rem;
 
-    padding: 2rem 0 2rem 5rem;
+  padding: 2rem 0 2rem 5rem;
 }
 
 .beneficios__item {
-    background-image: url(../img/petala.png);
+  background-image: url(../img/petala.png);
 }
-
 
 .item__titulo {
-    color: var(--cinza-escuro);
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-transform: uppercase;
+  color: var(--cinza-escuro);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .item__texto {
-    line-height: normal;
+  line-height: normal;
 }
